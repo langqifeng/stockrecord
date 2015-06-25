@@ -1,7 +1,6 @@
 package com.hust.stock;
 
-public class HelloWorld {
-
+public class HelloWorldTest {
 	public static void main(String[] args) {
 		
 	}
