@@ -16,6 +16,8 @@ target/
 .project
 .metadata/
 /target/
+/bin
+bin/
 
 
 #过滤掉.idea和.DS_Store
