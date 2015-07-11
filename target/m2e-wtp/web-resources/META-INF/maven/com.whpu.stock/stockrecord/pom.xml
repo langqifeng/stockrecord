@@ -92,12 +92,12 @@
             <artifactId>mybatis-spring</artifactId>
             <version>1.0.1</version>
         </dependency>
-        <!-- mysql驱动包 -->
+        <!-- mysql驱动包
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>5.1.29</version>
-        </dependency>
+        </dependency> -->
         <!-- junit测试包 -->
         <dependency>
             <groupId>junit</groupId>

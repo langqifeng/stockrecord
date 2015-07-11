@@ -5,7 +5,7 @@
   <context-param>
     <param-name>contextConfigLocation</param-name>
     <param-value>
-			conf/spring.xml
+			/WEB-INF/spring.xml
 		</param-value>
   </context-param>
   
@@ -15,9 +15,15 @@
 		</listener-class>
   </listener>
   
-  <listener>
-    <listener-class>org.springframework.web.util.IntrospectorCleanupListener</listener-class>
-  </listener>
+  
+  	<servlet>
+		<servlet-name>springMVC</servlet-name>
+	<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>springMVC</servlet-name>
+		<url-pattern>/</url-pattern>
+	</servlet-mapping>
 
 
   <display-name>stockrecord</display-name>
