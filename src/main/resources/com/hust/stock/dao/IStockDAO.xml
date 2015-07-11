@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hust.stock.dao.IStockDAO">
+
+	<select id="findCapitalAccount" resultType="com.hust.stock.domain.StockZJZH">
+		SELECT
+		holderid as holderid,
+		date as date
+		FROM
+		t_stock_capital_account_zjzh limit 10
+	</select>
+
+
+</mapper>
